@@ -339,6 +339,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1506788640}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &480421933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 480421934}
+  - component: {fileID: 480421935}
+  m_Layer: 0
+  m_Name: ManualTester
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &480421934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480421933}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.71428, y: -0, z: -13.71428}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &480421935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480421933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3647c45b79974c141a23b401c9d0b98c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ManualLevelTester
 --- !u!1 &678291527
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,6 +564,7 @@ GameObject:
   - component: {fileID: 1506788639}
   - component: {fileID: 1506788638}
   - component: {fileID: 1506788641}
+  - component: {fileID: 1506788642}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -612,6 +657,23 @@ MonoBehaviour:
   shootRange: 75
   meleeRange: 2.6
   attackCooldown: 0.35
+--- !u!114 &1506788642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506788637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756cc4f9c383a0b4084b829a396ca7da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ForestAdventure.AimFeedbackUI
+  aimCamera: {fileID: 417825837}
+  combat: {fileID: 1506788641}
+  senseRange: 80
+  pickupRange: 3
+  showDistance: 1
 --- !u!1 &1508878654
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,3 +1031,4 @@ SceneRoots:
   - {fileID: 1103432390}
   - {fileID: 6107514245273526591}
   - {fileID: 1508878658}
+  - {fileID: 480421934}
