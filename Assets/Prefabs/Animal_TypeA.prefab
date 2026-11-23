@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95924a2644c4688429600c49b14221ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ForestAdventure.EnemyHealth
-  maxHealth: 40
+  maxHealth: 4
 --- !u!114 &5665135449531248683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34cdd2d200f63ed418c72b9859c0a687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ForestAdventure.EnemyGemDrop
-  gemPrefab: {fileID: 0}
+  gemPrefab: {fileID: 7457437081472956403, guid: a12e152dbd9b69142b6c2d35c0d4650c, type: 3}
   deathDelay: 0.7
 --- !u!114 &7108559218184405413
 MonoBehaviour:
