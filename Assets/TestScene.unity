@@ -807,14 +807,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ForestAdventure.BossController
   player: {fileID: 1506788640}
-  chaseSpeed: 3.7
-  chargeSpeed: 13
+  chaseSpeed: 1.5
+  chargeSpeed: 5
   prepareSeconds: 1.6
   chargeSeconds: 1.3
   recoverSeconds: 1.3
   attackDistance: 9
   hitDistance: 1.5
   enragedHealthRatio: 0.35
+  limitToArena: 1
+  arenaCenter: {x: 0, y: 0, z: 0}
+  arenaRadius: 35
+  failSafeSeconds: 2.5
 --- !u!114 &1109507799
 MonoBehaviour:
   m_ObjectHideFlags: 0
